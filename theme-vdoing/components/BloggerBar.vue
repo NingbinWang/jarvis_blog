@@ -25,6 +25,16 @@
       <span class="name">{{blogger.name}}</span>
       <span class="slogan">{{blogger.slogan}}</span>
     </div>
+    <div class="qrcode">
+      <img
+          :src="blogger.qrcode"
+          alt="公众号二维码"
+          title="公众号"
+      />
+    </div>
+    <div class="blogger">
+      <span class="qrslogan">{{blogger.qrslogan}}</span>
+    </div>
   </aside>
 </template>
 

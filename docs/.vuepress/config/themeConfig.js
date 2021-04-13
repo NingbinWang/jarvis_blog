@@ -11,7 +11,7 @@ module.exports = {
   searchMaxSuggestions: 5, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
-  editLinks: false, // 启用编辑
+  editLinks: true, // 启用编辑
   editLinkText: '编辑',
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
@@ -53,6 +53,8 @@ module.exports = {
     avatar: 'https://img-blog.csdnimg.cn/20210413012919663.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTM5ODMxOTQ=,size_16,color_FFFFFF,t_70#pic_center',
     name: 'AlexKing阁下',
     slogan: 'When Technology Becomes Absolute Passion!',
+    qrcode: 'https://img-blog.csdnimg.cn/20210414012805992.jpg#pic_center',
+    qrslogan:'欢迎关注我的公众号，这里期待你的一键三连哦',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -90,7 +92,7 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'King Alex | <a href="" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'King Alex | <a href="http://www.miitbeian.gov.cn" target="_blank">苏ICP备18018270号</a>', // 博客版权信息，支持a标签
   },
  // htmlModules // 插入hmtl(广告)模块
 }

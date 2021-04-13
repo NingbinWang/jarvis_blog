@@ -10,14 +10,14 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'cnskyline.top' > CNAME
+echo 'www.cnskyline.top' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:NingbinWang/NingbinWang.github.io.git
+  githubUrl=git@github.com:NingbinWang/jarvis_blog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://NingbinWang:${GITHUB_TOKEN}@github.com/NingbinWang/NingbinWang.github.io.git
+  githubUrl=https://NingbinWang:${GITHUB_TOKEN}@github.com/NingbinWang/jarvis_blog.git
   git config --global user.name "alex_king"
   git config --global user.email "188101696@qq.com"
 fi
