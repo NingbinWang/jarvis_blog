@@ -50,10 +50,10 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://img-blog.csdnimg.cn/20210413012919663.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTM5ODMxOTQ=,size_16,color_FFFFFF,t_70#pic_center',
+    avatar: 'https://cdn.jsdelivr.net/gh/samuelwnb/imgbed/blog/kinglogo.png',
     name: 'AlexKing阁下',
     slogan: 'When Technology Becomes Absolute Passion!',
-    qrcode: 'https://img-blog.csdnimg.cn/20210414012805992.jpg#pic_center',
+    qrcode: 'https://cdn.jsdelivr.net/gh/samuelwnb/imgbed/blog/qrcode_for_gh_3bfbdf5641d6_258%20(1).jpg',
     qrslogan:'欢迎关注我的公众号，这里期待你的一键三连哦',
   },
   social: {

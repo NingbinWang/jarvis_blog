@@ -32,4 +32,7 @@ npm install # or yarn install
 
 # develop
 npm run dev # or yarn dev
+
+# 一键部署
+npm run deploy
 ```
