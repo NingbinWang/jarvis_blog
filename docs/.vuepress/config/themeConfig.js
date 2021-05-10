@@ -54,7 +54,7 @@ module.exports = {
     name: 'AlexKing阁下',
     slogan: 'When Technology Becomes Absolute Passion!',
     qrcode: 'https://cdn.jsdelivr.net/gh/samuelwnb/imgbed/blog/qrcode_for_gh_3bfbdf5641d6_258%20(1).jpg',
-    qrslogan:'欢迎关注我的公众号，这里期待你的一键三连哦',
+    qrslogan:'欢迎关注我的公众号，期待你的一键三连哦',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏

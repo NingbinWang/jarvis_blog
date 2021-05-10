@@ -4,7 +4,7 @@
 module.exports = {
   '/01.内核技术/': [
     {
-      title: 'JavaScript',
+      title: 'kernel',
       collapsable: false, //是否可折叠，可选的，默认true
       children: [
         ['01.JavaScript/01.JavaScript中的名词概念','JavaScript中的名词概念'],
