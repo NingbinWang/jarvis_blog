@@ -10,7 +10,7 @@ module.exports = [
          text: 'linux内核',
          items:[
            { text: '进程管理和调度', link: '/pages/1491f1/' },
-           { text: '内存管理', link: '/pages/1491f1/' },
+           { text: '内存管理', link: '/kernel/memory/' },
            { text: '进程虚拟内存', link: '/pages/1491f1/' },
            { text: '锁与进程间通信', link: '/pages/1491f1/' },
            { text: '设备驱动程序', link: '/pages/1491f1/' },
