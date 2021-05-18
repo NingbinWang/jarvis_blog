@@ -9,9 +9,9 @@ module.exports = [
       {
          text: 'linux内核',
          items:[
-           { text: '进程管理和调度', link: '/pages/1491f1/' },
+           { text: '进程管理和调度', link: '/kernel/tasks/' },
            { text: '内存管理', link: '/kernel/memory/' },
-           { text: '进程虚拟内存', link: '/pages/1491f1/' },
+           { text: '进程虚拟内存', link: '/kernel/vmmem/' },
            { text: '锁与进程间通信', link: '/pages/1491f1/' },
            { text: '设备驱动程序', link: '/pages/1491f1/' },
            { text: '模块', link: '/pages/1491f1/' },
@@ -78,8 +78,7 @@ module.exports = [
     text: '电路知识',
     link: '/circuit/',
     items: [
-      { text: 'AD20知多少', link: '/pages/1491f1/' },
-      { text: 'fusion360', link: '/pages/1491f1/' },
+      { text: 'AD的使用', link: '/circuit/use/' },
     ],
   },
   {
@@ -93,7 +92,14 @@ module.exports = [
     text: '项目分享',
     link: '/project/',
     items: [
-      { text: 'stm32demoboard', link: '/pages/1491f1/' },
+      { text: 'STM32项目', link: '/project/stm32/' },
+    ],
+  },
+  {
+    text: '多媒体技术分享',
+    link: '/media/',
+    items: [
+      { text: '多媒体技术基础', link: '/media/basic/' },
     ],
   },
   {
