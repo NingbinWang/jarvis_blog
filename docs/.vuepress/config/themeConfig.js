@@ -53,18 +53,11 @@ module.exports = {
     avatar: 'https://cdn.jsdelivr.net/gh/samuelwnb/imgbed/blog/kinglogo.png',
     name: 'AlexKing阁下',
     slogan: 'When Technology Becomes Absolute Passion!',
-    qrcode: 'https://cdn.jsdelivr.net/gh/samuelwnb/imgbed/blog/qrcode_for_gh_3bfbdf5641d6_258%20(1).jpg',
-    qrslogan:'欢迎关注我的公众号，期待你的一键三连哦',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
-      {
-        iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:188101696@qq.com',
-      },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
